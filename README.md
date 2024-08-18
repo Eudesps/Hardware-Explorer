@@ -17,6 +17,7 @@ Se você deseja contribuir com o desenvolvimento do Hardware Explorer, sinta-se 
 
 Este projeto está licenciado sob a MIT License - veja o arquivo [LICENSE](https://github.com/Eudesps/Hardware-Explorer/blob/main/LICENSE) para mais detalhes.
 
-<img width="1440" alt="Poster" src="https://github.com/user-attachments/assets/cf059f30-b047-46df-a9a0-727535a24e03">
+<img width="1440" alt="Poster" src="https://github.com/user-attachments/assets/c385b290-2bdb-417d-b0f2-3b819db2d977">
+
 
 
