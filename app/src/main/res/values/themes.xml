@@ -3,6 +3,29 @@
     <style name="Base.Theme.HardwareExplorer" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+        <!-- Primary colors -->
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryVariant">@color/dark_gray</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Secondary colors -->
+        <item name="colorSecondary">@color/red</item>
+        <item name="colorSecondaryVariant">@color/medium_gray</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <!-- Background and surface colors -->
+        <item name="android:colorBackground">@color/white</item>
+        <item name="colorSurface">@color/light_gray</item>
+        <item name="colorOnSurface">@color/black</item>
+
+        <!-- Error colors -->
+        <item name="colorError">@color/red</item>
+        <item name="colorOnError">@color/white</item>
+
+        <!-- Other settings -->
+        <item name="android:textColor">@color/black</item>
+        <item name="android:windowBackground">@color/white</item>
     </style>
 
     <style name="Theme.HardwareExplorer" parent="Base.Theme.HardwareExplorer" />
