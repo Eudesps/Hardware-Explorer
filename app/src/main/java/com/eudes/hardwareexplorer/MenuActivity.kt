@@ -6,8 +6,10 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import androidx.fragment.app.Fragment
 import com.eudes.hardwareexplorer.databinding.ActivityMainBinding
 import com.eudes.hardwareexplorer.databinding.ActivityMenuBinding
+import com.eudes.hardwareexplorer.fragments.AnotarFragment
 
 class MenuActivity : AppCompatActivity() {
     private val binding by lazy{ActivityMenuBinding.inflate(layoutInflater)}
@@ -21,5 +23,18 @@ class MenuActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+        binding.bottomNavigationView.setOnItemSelectedListener {
+            when (it.itemId) {
+                    R.id.anotacoes -> exibirFragment(AnotarFragment())
+                else ->{}
+            }
+            true
+        }
+    }
+    private fun exibirFragment(fragment: Fragment) {
+        val fragmentManager = supportFragmentManager
+        val fragmentTransaction = fragmentManager.beginTransaction()
+        fragmentTransaction.replace(R.id.frameLayout, fragment)
+        fragmentTransaction.commit()
     }
 }

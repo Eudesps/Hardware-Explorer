@@ -16,7 +16,7 @@
 
         <!-- Background and surface colors -->
         <item name="android:colorBackground">@color/white</item>
-        <item name="colorSurface">@color/light_gray</item>
+        <item name="colorSurface">@color/dark_gray</item>
         <item name="colorOnSurface">@color/black</item>
 
         <!-- Error colors -->
