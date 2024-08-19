@@ -9,10 +9,11 @@ Hardware Explorer é um aplicativo educacional desenvolvido em Kotlin, projetado
 **Visualização de Anotações:** As anotações feitas pelos usuários podem ser acessadas e visualizadas em um espaço separado, facilitando a revisão e o estudo contínuo.
 
 ## Tecnologias Utilizadas
-**Kotlin:** Linguagem principal usada para o desenvolvimento do aplicativo.
-**Android SDK:** Para o desenvolvimento da interface e das funcionalidades do app.
-**SQLite:** Utilizado para armazenar e gerenciar as anotações dos usuários.
-Como Contribuir
+**Kotlin:** Linguagem principal usada para o desenvolvimento do aplicativo.<br>
+**Android SDK:** Para o desenvolvimento da interface e das funcionalidades do app.<br>
+**SQLite:** Utilizado para armazenar e gerenciar as anotações dos usuários.<br>
+
+#
 Se você deseja contribuir com o desenvolvimento do Hardware Explorer, sinta-se à vontade para fazer um fork do repositório, realizar suas alterações e enviar um pull request. Todas as contribuições são bem-vindas!
 
 Este projeto está licenciado sob a MIT License - veja o arquivo [LICENSE](https://github.com/Eudesps/Hardware-Explorer/blob/master/LICENSE) para mais detalhes.
