@@ -7,9 +7,10 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.eudes.hardwareexplorer.databinding.ActivityMainBinding
+import com.eudes.hardwareexplorer.databinding.ActivityMenuBinding
 
-class MainActivity : AppCompatActivity() {
-    private val binding by lazy{ ActivityMainBinding.inflate(layoutInflater)}
+class MenuActivity : AppCompatActivity() {
+    private val binding by lazy{ActivityMenuBinding.inflate(layoutInflater)}
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -20,10 +21,5 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-        binding.btnComecar.setOnClickListener {
-            val intent = Intent(this, MenuActivity::class.java)
-            startActivity(intent)
-        }
-
     }
 }
