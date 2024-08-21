@@ -10,6 +10,7 @@ import androidx.fragment.app.Fragment
 import com.eudes.hardwareexplorer.databinding.ActivityMainBinding
 import com.eudes.hardwareexplorer.databinding.ActivityMenuBinding
 import com.eudes.hardwareexplorer.fragments.AnotarFragment
+import com.eudes.hardwareexplorer.fragments.ExibirAnotacaoFragment
 
 class MenuActivity : AppCompatActivity() {
     private val binding by lazy{ActivityMenuBinding.inflate(layoutInflater)}
@@ -26,6 +27,7 @@ class MenuActivity : AppCompatActivity() {
         binding.bottomNavigationView.setOnItemSelectedListener {
             when (it.itemId) {
                     R.id.anotacoes -> exibirFragment(AnotarFragment())
+                    R.id.exibir -> exibirFragment(ExibirAnotacaoFragment())
                 else ->{}
             }
             true
