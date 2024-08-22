@@ -13,9 +13,6 @@ Hardware Explorer é um aplicativo educacional desenvolvido em Kotlin, projetado
 **Android SDK:** Para o desenvolvimento da interface e das funcionalidades do app.<br>
 **SQLite:** Utilizado para armazenar e gerenciar as anotações dos usuários.<br>
 
-Este projeto está licenciado sob a MIT License - veja o arquivo [LICENSE](https://github.com/Eudesps/Hardware-Explorer/blob/master/LICENSE) para mais detalhes.
-
 <img width="1440" alt="Poster" src="https://github.com/user-attachments/assets/c385b290-2bdb-417d-b0f2-3b819db2d977">
 
-
-
+Este projeto está licenciado sob a MIT License - veja o arquivo [LICENSE](https://github.com/Eudesps/Hardware-Explorer/blob/master/LICENSE) para mais detalhes.
