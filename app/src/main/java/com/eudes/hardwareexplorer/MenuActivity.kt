@@ -11,6 +11,7 @@ import com.eudes.hardwareexplorer.databinding.ActivityMainBinding
 import com.eudes.hardwareexplorer.databinding.ActivityMenuBinding
 import com.eudes.hardwareexplorer.fragments.AnotarFragment
 import com.eudes.hardwareexplorer.fragments.ExibirAnotacaoFragment
+import com.eudes.hardwareexplorer.fragments.PrincipalFragment
 
 class MenuActivity : AppCompatActivity() {
     private val binding by lazy{ActivityMenuBinding.inflate(layoutInflater)}
@@ -28,6 +29,7 @@ class MenuActivity : AppCompatActivity() {
             when (it.itemId) {
                     R.id.anotacoes -> exibirFragment(AnotarFragment())
                     R.id.exibir -> exibirFragment(ExibirAnotacaoFragment())
+                    R.id.home ->exibirFragment(PrincipalFragment())
                 else ->{}
             }
             true
